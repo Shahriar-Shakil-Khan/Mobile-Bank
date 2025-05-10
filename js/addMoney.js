@@ -11,7 +11,7 @@ document.getElementById('add-money').addEventListener('click',function(event){
         alert("Invalid ! Input valid Amount");
         return;
     }
-    if(accountNumber.length===11){
+    if(accountNumber.length===11 && accountNumber==01797440737){
         if(pin===1234){
              const sum=mainBalance+amount;
              //document.getElementById('main-balance').innerText=sum;

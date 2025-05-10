@@ -16,7 +16,7 @@
                     <h1 class="text-3xl font-bold">$ <span id="main-balance">45000</span></h1>
                     <p class="border rounded p-1">Available Balance</p>
                 </div>
-                <button class="btn btn-neutral">Logout</button>
+                <button  id="logout-btn" class="btn btn-neutral">Logout</button>
             </nav>
             <section class="mt-10">
                 <h1 class="text-2xl font-bold mb-1">🔥Welcome to Payooo!</h1>
@@ -73,12 +73,12 @@
                               </select>  
                               <fieldset class="fieldset">
                                 <label class="label">Mobile Number</label>
-                                <input value="01797440737" id="account-number" type="number" class="input" placeholder="Enter your number" required/>
+                                <input id="account-number" type="number" class="input" placeholder="Enter your number" required/>
                                 <label class="label">Amount</label>
                                 <input  id="amount-number" type="number" class="input" placeholder="Enter your amount" required/>
                                 
                                 <label class="label">Pin</label>
-                                <input value="1234" id="pin-number" type="text" class="input" placeholder="Enter 4 Digit Pin" required/>
+                                <input  id="pin-number" type="text" class="input" placeholder="Enter 4 Digit Pin" required/>
                                 <button id="add-money" id="login-btn" class="btn btn-neutral mt-4">Add Money</button>
                               </fieldset>
                         </div>
@@ -96,12 +96,12 @@
                         <div class="card-body"> 
                               <fieldset class="fieldset">
                                 <label class="label">Mobile Number</label>
-                                <input value="01797440737" id="account-number" type="number" class="input" placeholder="Enter your number" required/>
+                                <input  id="account-number" type="number" class="input" placeholder="Enter your number" required/>
                                 <label class="label">Amount</label>
                                 <input  id="cashout-amount" type="number" class="input" placeholder="Enter your amount" required/>
                                 
                                 <label class="label">Pin</label>
-                                <input value="1234" id="cashout-pin" type="text" class="input" placeholder="Enter 4 Digit Pin" required/>
+                                <input  id="cashout-pin" type="text" class="input" placeholder="Enter 4 Digit Pin" required/>
                                 <button id="cashout-btn" id="login-btn" class="btn btn-neutral mt-4">Cashout</button>
                               </fieldset>
                         </div>
@@ -125,5 +125,6 @@
      <script src="js/toggle.js"></script> 
      <script src="js/cashout.js"></script>
      <script src="js/transaction.js"></script>  
+     <script src="js/logout.js"></script>
 </body>
 </html>
