@@ -26,7 +26,7 @@ document.getElementById('add-money').addEventListener('click',function(event){
                <p>Account Number :${accountNumber}</p> 
             `
             container.appendChild(div)
-            
+            alert("Added Successful");
            /* const p=document.createElement("p");
             p.innerText=`
              added ${amount} from ${accountNumber} account

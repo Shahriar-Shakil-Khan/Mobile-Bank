@@ -22,7 +22,7 @@ document.getElementById('cashout-btn').addEventListener('click',function(event){
                <p>cashout ${cashoutAmount} from ${accountNumber} account</p> 
             `
             container.appendChild(div)
-
+            alert("Cashout Successful");
 
 
             /* 
